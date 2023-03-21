@@ -1,0 +1,60 @@
+body{
+	background-image: url('images/backMarvel3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+main{
+	
+	height: 50vh;
+	width: 70%;
+	margin-top: 10vh;
+	margin-left: 15%;
+}
+
+#showDetail{
+	display: flex;
+	flex-direction: row;
+	background-color: rgba(194, 181, 180, .3);
+	padding: 5px;
+}
+
+#underline{
+	height: 0px;
+	width: 90%;
+	border: 1px solid black;
+	margin: auto;
+}
+
+#showDetail .left{
+	border: 1px solid white;
+	width: 250px;
+	height: 300px;
+}
+.left img{
+	height: 100%;
+	width: 100%;
+}
+
+.right p{
+	font-size: 1.2rem;
+	color: white;
+	margin :  0px;
+	margin-top: 10px;
+	/* margin-left: 20px;	 */
+	font-weight: bolder;
+}
+.right{
+	width: 100%;
+}
+.right .heading{
+	margin-left: 40px;
+	/* color: lightblue !important; */
+	font-family: sans-serif;
+	letter-spacing: .1rem;
+	font-size: 3rem;
+}
+
+.right .details p{
+	color: darkgoldenrod;
+}

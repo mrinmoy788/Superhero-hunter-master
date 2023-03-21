@@ -1,0 +1,88 @@
+body{
+	background-image: url('images/backMarvel.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: grey;
+	background-repeat: no-repeat;
+
+}
+	
+.logo::first-letter{
+	color: grey;
+	font-weight: bolder;
+	color: cyan;
+}
+
+.thumbnail{
+	height: 250px;
+}
+.container{
+	/* margin: 50px 20px; */
+	min-width: 100%;
+	margin-top: 30vh;
+}
+
+.container .hero{
+	max-height: 22rem;
+	box-shadow: 1px 1px 1px 1px lightgrey;
+	background-color: lightgrey;
+}
+
+.hero:hover{
+	box-shadow: 2px 2px 10px 5px black;
+}
+
+.search-container > input {
+	width: 60vw;
+	margin: 50px auto !important;
+}
+
+.content h1{
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 8rem;	
+	text-shadow: 2px 2px black;
+}
+.content h2{
+	font-family: 'Dancing Script', cursive;
+}
+
+
+.fav-btn{
+	height: 25px;
+	width: 25px;
+	cursor: pointer;
+
+}
+.fav-btn > img{
+	height: 100%;
+	width: 100%
+}
+
+
+#search::placeholder{
+	font-size: 1.2rem;
+}
+#search{
+	padding: 5px 20px;
+	font-size: 1.2rem;
+}
+
+
+#search-result-container{
+	list-style-type: none;
+	margin: 0px;
+	padding-left: 5px;
+	width: 59.9vw;
+	top: 59%;
+	left: 19.5%;
+	padding: 5px 20px;
+	width: ;
+}
+
+.item{
+	/* font-weight: bolder; */
+	color: grey;
+	font-size: 1.3rem;
+	text-decoration: none;
+	/* border-top: 1px solid lightgrey; */
+}
